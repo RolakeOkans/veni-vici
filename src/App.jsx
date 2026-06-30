@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API_URL = 'https://api.thecatapi.com/v1/images/search?has_breeds=1&api_key=live_tcORZtqVaOm8tUDVH9W2WzaUwdECZQV1VMRrPM3iKUQpBVXMJng41XeIcsKJFOWZ'
+const API_URL = 'https://api.thecatapi.com/v1/images/search?has_breeds=1&api_key=${import.meta.env.VITE_CAT_API_KEY}'
 
 const App = () => {
   const [cat, setCat] = useState(null)
