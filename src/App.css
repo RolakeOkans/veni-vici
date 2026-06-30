@@ -1,0 +1,151 @@
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #fff9f0;
+}
+
+h1 {
+  color: #b5451b;
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #555;
+}
+
+.discover-btn {
+  background-color: #b5451b;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: background-color 0.2s;
+}
+
+.discover-btn:hover {
+  background-color: #d4622e;
+}
+
+.cat-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.cat-card h2 {
+  color: #b5451b;
+  margin-bottom: 15px;
+}
+
+.cat-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.attributes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.attr {
+  background-color: #fff0e8;
+  border: 2px solid #b5451b;
+  color: #b5451b;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.attr:hover {
+  background-color: #b5451b;
+  color: white;
+}
+
+.ban-section {
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.ban-section h3 {
+  color: #cc0000;
+}
+
+.ban-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.ban-item {
+  background-color: #ffebee;
+  border: 2px solid #cc0000;
+  color: #cc0000;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+
+.ban-item:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+.history-section {
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.history-section h3 {
+  color: #555;
+}
+
+.history-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.history-item {
+  width: 100px;
+  text-align: center;
+}
+
+.history-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #eee;
+}
+
+.history-item p {
+  font-size: 0.75rem;
+  margin-top: 5px;
+  color: #555;
+}
